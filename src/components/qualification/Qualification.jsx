@@ -108,7 +108,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Website Design for eCommerce</h3>
                                 <span className="qualification_subtitle">Zona Sur AutoPartes</span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2022
+                                    <i className="uil uil-calender-alt"></i> Dec, 2022
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Frontend Development</h3>
                                 <span className="qualification_subtitle">Walcakes - Entrepreneurship</span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2023
+                                    <i className="uil uil-calender-alt"></i> Jan, 2023
                                 </div>
                             </div>
 
@@ -140,10 +140,43 @@ const Qualification = () => {
                                 <h3 className="qualification_title">Website Redesign for eCommerce</h3>
                                 <span className="qualification_subtitle">mydeplus.net</span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2023
+                                    <i className="uil uil-calender-alt"></i> Mar, 2023
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">Wordpress Developer/Designer & SEO optimization</h3>
+                                <span className="qualification_subtitle">Academia LEF</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> May, 2023
                                 </div>
                             </div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
                         </div>
+
+                        <div className="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification_title">Website Developer & SEO Optimization</h3>
+                                <span className="qualification_subtitle">Esquematízate LTD</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> June - August, 2023
+                                </div>
+                            </div> 
+                        </div>
+                        
                     </div>
                 </div>
             </div>

@@ -1,30 +1,31 @@
 import Work1 from "../../assets/work1AutoParts.jpg"
-import Work2 from "../../assets/work2Mydeplus.jpg"
+import Work2 from "../../assets/Work2AcademiaLEF.png"
 import Work3 from "../../assets/work3Walcakes.jpg"
 import Work4 from "../../assets/work4Fotoformas.jpg"
 import Work5 from "../../assets/work5Roxxet.jpg"
+import Work6 from "../../assets/Work6Esquematizate.png"
 
 export const projectsData = [
     { 
         id: 1,
         image: Work1,
         title: "Website eCommerce - AutoPartes",
-        category: 'web',
+        category: 'design',
         url: "https://zonasurautopartes.com/store/",
     },
     {
         id: 2,
         image: Work2,
-        title: "Website Redesign - MydePlus",
-        category: 'design',
-        url: "https://mydeplus.net/",
+        title: "Website Development & SEO",
+        category: 'web',
+        url: "https://legionextranjera.es/",
     },
     {
-        id: 3,
-        image: Work5,
-        title: "Website eCommerce - Roxxet",
+        id: 6,
+        image: Work6,
+        title: "Website Development & SEO",
         category: 'web',
-        url: "https://roxett.com.mx/",
+        url: "https://esquematizate.com/",
     },
     {
         id: 4,
@@ -39,6 +40,13 @@ export const projectsData = [
         title: "Website Design - FotoFormas",
         category: 'design',
         url: "https://foto-formas.webflow.io/",
+    },
+    {
+        id: 3,
+        image: Work5,
+        title: "Website eCommerce - Roxxet",
+        category: 'web',
+        url: "https://roxett.com.mx/",
     },
 ];
 
