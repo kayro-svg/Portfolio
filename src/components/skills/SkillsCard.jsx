@@ -1,5 +1,5 @@
 import React from "react";
-import { competences } from "./competences";
+import { competences } from "./competences_data";
 
 export default function SkillsCard() {
   return (
