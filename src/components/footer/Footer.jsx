@@ -45,15 +45,6 @@ const Footer = () => {
           >
             <i class="uil uil-github-alt"></i>
           </a>
-
-          <a
-            href="https://dribbble.com/KayroV"
-            className="footer_social-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i class="uil uil-dribbble"></i>
-          </a>
         </div>
 
         <span className="footer_copy">
