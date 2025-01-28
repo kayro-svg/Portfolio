@@ -7,13 +7,21 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm(
-      "service_lxh414g",
-      "template_cbiuhhm",
-      form.current,
-      "lsZzp1V20rNpmRVFU"
-    );
+    emailjs
+      .sendForm(
+        "service_hjy3epi",
+        "template_73dcuwv",
+        form.current,
+        "TYaDonPRvjMBe8SzL"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (error) => {
+          console.log("FAILED...", error);
+        }
+      );
     e.target.reset();
   };
   return (
