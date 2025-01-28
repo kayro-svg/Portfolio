@@ -27,12 +27,12 @@ export const qualificationData = [
         date: "March, 2024 - Present",
         content: [
           "Developed and maintained various projects for the company as a frontend developer using ReactJS, NextJS, and React Native with Expo for mobile apps.",
-          "Optimized different websites and apps for performance and speed.",
+          "Optimized different websites and apps for performance and speed and implemented new features and functionalities.",
           "Collaborated with the backend team to integrate the frontend with the backend and worked closely with UX/UI Designers."
         ]
       },
       {
-        title: "Web Developer | Web Designer | CMS Manager | SEO Strategist",
+        title: "Web Developer | Web Designer | CMS Manager | SEO Specialist",
         subtitle: "Freelancer",
         date: "2021 - 2024",
         content: [
@@ -49,9 +49,9 @@ export const qualificationData = [
     category: "Education",
     data: [
       {
-        title: "Information Technology Management",
+        title: "Information Technologies Management",
         subtitle: "Bachelor's Degree",
-        date: "2018 - 2024",
+        date: "2021 - 2024",
         content: [
           "Panamá - UNACHI"
         ]
@@ -71,33 +71,44 @@ export const qualificationData = [
     category: "Certifications",
     data: [
       {
-        title: "Frontend Developer Certification",
-        subtitle: "Freelancer",
-        date: "2021 - Present",
+        title: "React.js and Redux Professional Course",
+        subtitle: "Platzi",
+        date: "Jun, 2024",
         content: [
-          "Certified in frontend development with a focus on ReactJS.",
-          "Gained expertise in optimizing websites for performance and speed.",
-          "Experienced in collaborating with backend teams to integrate frontend and backend systems."
+          "Certified in React.js and Redux.",
+          "Learned how to build web applications with React.js and Redux.",
+          "Gained expertise in state management and data flow in React.js applications."
+
         ]
       },
       {
-        title: "Advanced React Developer",
-        subtitle: "Online Course",
-        date: "2021 - Present",
+        title: "TypeScript Course: Object Oriented Programming and Asynchronism",
+        subtitle: "Platzi",
+        date: "March, 2024",
         content: [
-          "Completed an advanced course in ReactJS development.",
-          "Learned best practices for building scalable and maintainable web applications.",
-          "Enhanced skills in state management, hooks, and performance optimization."
+          "Certified in TypeScript.",
+          "Learned object-oriented programming and asynchronism in TypeScript.",
+          "Gained expertise in writing type-safe code with TypeScript and React."
+
         ]
       },
       {
-        title: "Web Performance Optimization",
-        subtitle: "Online Course",
-        date: "2021 - Present",
+        title: "TypeScript Course: Advanced Types and Functions",
+        subtitle: "Platzi",
+        date: "March, 2024",
         content: [
-          "Completed a course focused on web performance optimization techniques.",
-          "Learned how to identify and fix performance bottlenecks in web applications.",
-          "Gained expertise in tools and techniques for measuring and improving web performance."
+          "Completed an advanced course in TypeScript.",
+          "Learned advanced types and functions in TypeScript.",
+          "Gained expertise in writing type-safe code and improving code quality."
+        ]
+      },
+      {
+        title: "Typescript Fundamentals Course",
+        subtitle: "Platzi",
+        date: "March, 2024",
+        content: [
+          "Completed a course in Typescript fundamentals.",
+          "Learned how to write type-safe code and improve code quality.",
         ]
       }
     ]
