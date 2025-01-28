@@ -1,84 +1,210 @@
+/* ============================================================
+   SECCIÓN DE HABILIDADES
+============================================================ */
+
+/* Contenedor principal de la sección de habilidades */
+.skills_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor de habilidades con diseño de grid */
 .skills_container {
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 3rem;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+  column-gap: 3rem;
+  justify-content: center;
 }
 
+/* Contenido individual de cada habilidad */
 .skills_content {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2rem 4rem;
-    border-radius: 1.25rem;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem 4rem;
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Título de la habilidad */
 .skills_title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    text-align: center;
-    margin-bottom: var(--mb-1-5);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  text-align: start;
+  margin-bottom: var(--mb-1-5);
 }
 
+/* Caja que contiene los grupos de habilidades */
 .skills_box {
-    display: flex;
-    justify-content: center;
-    column-gap: 2.5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+  flex: 1;
 }
 
+/* Grupo de habilidades organizadas en grid */
 .skills_group {
-    display: grid;
-    align-items: flex-start;
-    row-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  column-gap: 1rem;
+  align-items: center;
 }
 
+/* Datos individuales de cada habilidad */
 .skills_data {
-    display: flex;
-    column-gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }
 
+/* Icono de verificación */
 .skills .bx-badge-check {
-    font-size: 1rem;
-    color: var(--title-color)
+  font-size: 1rem;
+  color: var(--title-color);
 }
 
+/* Nombre de la habilidad */
 .skills_name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    line-height: 18px;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
 }
 
+/* Nivel de la habilidad */
 .skills_level {
-    font-size: var(--tiny-font-size);
-
+  font-size: var(--smaller-font-size);
 }
 
-/* Breakpoints */
-/* For large devices */
+/* ============================================================
+   MEDIA QUERIES PARA LA SECCIÓN DE HABILIDADES
+============================================================ */
+
+/* Para dispositivos grandes (hasta 992px) */
 @media screen and (max-width: 992px) {
-    .skills_container {
-        grid-template-columns: max-content;
-        row-gap: 2rem;
-    }
+  .skills_container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
 }
 
-/* For medium devices */
+/* Para dispositivos medianos (hasta 576px) */
 @media screen and (max-width: 576px) {
-    .skills_container {
-        grid-template-columns: 1fr;
-    }
+  .skills_container {
+    grid-template-columns: 1fr;
+  }
 
-    .skills_content {
-        padding: 1.5rem;
-    }
+  .skills_content {
+    padding: 1.5rem;
+  }
 }
 
-/* For small devices */
+/* Para dispositivos pequeños (hasta 350px) */
 @media screen and (max-width: 350px) {
-    .skills_box {
-        column-gap: 1.25rem;
-    }
+  .skills_box {
+    column-gap: 1.25rem;
+  }
 
-    .skills_name {
-        font-size: var(--small-font-size);
-    }
+  .skills_name {
+    font-size: var(--small-font-size);
+  }
+}
 
+/* ============================================================
+   CONTENEDOR DE FILAS
+============================================================ */
+
+/* Contenedor principal de filas */
+.rows_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Filas individuales */
+.row {
+  display: flex;
+  flex: 1;
+  border-radius: 1em;
+  gap: 1em;
+}
+
+/* Filas específicas (segunda y tercera fila) */
+.row_2,
+.row_3 {
+  flex: 1;
+}
+
+/* Alternativa para la segunda fila (si es necesario) */
+.row.row-2 {
+  display: flex;
+  flex: 1;
+  gap: 1em;
+}
+
+/* Caja de columnas dentro de las filas */
+.col-box {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  flex: 1;
+  border-radius: 1em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Elementos de gran tamaño */
+.large_item {
+  flex: 2;
+}
+
+/* Elementos de tamaño pequeño */
+.small_item {
+  flex: 1;
+}
+
+/* ============================================================
+   MEDIA QUERIES PARA EL CONTENEDOR DE FILAS
+============================================================ */
+
+/* Para dispositivos grandes (hasta 992px) */
+@media screen and (max-width: 992px) {
+  .rows_container {
+    flex-direction: column;
+  }
+
+  .row {
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+/* Para dispositivos medianos (hasta 576px) */
+@media screen and (max-width: 576px) {
+  .col-box {
+    padding: 1.5em;
+  }
+
+  .large_item,
+  .small_item {
+    flex: 1;
+  }
+
+  .skills_group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Para dispositivos pequeños (hasta 350px) */
+@media screen and (max-width: 350px) {
+  .col-box {
+    padding: 1em;
+  }
+
+  /* Ajustes adicionales para elementos pequeños si es necesario */
 }
