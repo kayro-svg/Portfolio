@@ -25,8 +25,8 @@ export const projectsData = [
   {
     id: 7,
     image: Work8,
-    title: "Website Design - CIEJE",
-    category: "design",
+    title: "Website Development - CIEJE",
+    category: "web",
     url: "https://cieje.mx/",
   },
   {
