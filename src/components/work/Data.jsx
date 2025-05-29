@@ -32,7 +32,7 @@ export const projectsData = [
   {
     id: 8,
     image: Work9,
-    title: "React Native App - RNB",
+    title: "React Native App - Maintenance & Bug Fixes ",
     category: "all",
     url: "https://apps.apple.com/pa/app/rednblue/id1643543709?l",
   },
