@@ -25,9 +25,9 @@ export const projectsData = [
   {
     id: 7,
     image: Work8,
-    title: "Website Design - CIEJE - On progress",
+    title: "Website Design - CIEJE",
     category: "design",
-    url: "https://kayro-portfolio.vercel.app/",
+    url: "https://cieje.mx/",
   },
   {
     id: 8,
